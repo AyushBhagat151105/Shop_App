@@ -47,6 +47,9 @@ class _HomePageState extends State<HomePage> {
         children: pages,
       ),
       bottomNavigationBar: BottomNavigationBar(
+        selectedFontSize: 0,
+        unselectedFontSize: 0,
+        iconSize: 35,
         onTap: (value) {
           setState(() {
             currentPage = value;
